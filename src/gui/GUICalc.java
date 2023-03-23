@@ -31,7 +31,7 @@ public class GUICalc extends JFrame{
         btn0.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
 
@@ -41,7 +41,7 @@ public class GUICalc extends JFrame{
         btn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
 
@@ -51,7 +51,7 @@ public class GUICalc extends JFrame{
         btn2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
 
@@ -61,7 +61,7 @@ public class GUICalc extends JFrame{
         btn3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
 
@@ -71,7 +71,7 @@ public class GUICalc extends JFrame{
         btn4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
                 calcText.setText(calcText.getText() + "4");
@@ -80,7 +80,7 @@ public class GUICalc extends JFrame{
         btn5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
 
@@ -90,7 +90,7 @@ public class GUICalc extends JFrame{
         btn6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
                 calcText.setText(calcText.getText() + "6");
@@ -99,7 +99,7 @@ public class GUICalc extends JFrame{
         btn7.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
                 calcText.setText(calcText.getText() + "7");
@@ -108,7 +108,7 @@ public class GUICalc extends JFrame{
         btn8.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
                 calcText.setText(calcText.getText() + "8");
@@ -117,7 +117,7 @@ public class GUICalc extends JFrame{
         btn9.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!operation.equals("")){
+                if(operation!=""){
                     calcText.setText("");
                 }
                 calcText.setText(calcText.getText() + "9");
